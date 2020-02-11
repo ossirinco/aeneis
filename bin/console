@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'bundler/setup'
+
+# Launch Pry or IRB
+begin
+  require 'pry'
+  require 'awesome_print'
+  require 'rainbow'
+
+  Pry.start
+rescue LoadError
+  require 'irb'
+
+  IRB.start(__FILE__)
+end

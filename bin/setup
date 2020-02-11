@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+IFS=$'\n\t'
+set -vx
+
+# Install gem dependencies
+bundle install --without development test

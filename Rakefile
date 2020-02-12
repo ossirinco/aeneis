@@ -11,5 +11,5 @@ task default: [:rubocop, :spec]
 
 desc 'Start development server'
 task :dev do
-  exec 'foreman start -e .env.dev -f Procfile.dev'
+  exec 'rerun -- rackup -p ${PORT:-4567} -E ${RACK_ENV:-development} config.ru'
 end

@@ -12,7 +12,6 @@ GEM
     faker (2.10.1)
       i18n (>= 1.6, < 2)
     ffi (1.12.2)
-    foreman (0.87.0)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.4)
@@ -90,7 +89,6 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   faker (~> 2.10)
-  foreman
   json (~> 2.3)
   pry-byebug
   rack-test (~> 1.1)

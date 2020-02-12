@@ -35,8 +35,6 @@ end
 group :development do
   # Pretty print Ruby objects (https://github.com/awesome-print/awesome_print)
   gem 'awesome_print'
-  # Process manager for applications (https://github.com/ddollar/foreman)
-  gem 'foreman'
   # IRB console alternative and debugger (https://github.com/rweng/pry-rails)
   gem 'pry-byebug'
   # Application restarter on file changes (https://github.com/alexch/rerun)
